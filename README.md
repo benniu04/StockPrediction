@@ -50,3 +50,19 @@ The script outputs evaluation metrics such as precision, recall, F1 score, accur
 
 The system predicts the stock's direction for the next day based on the most recent available data and the trained model.
 
+## File Structure
+
+∙ trading.py: The main Python script for stock prediction and trading automation.
+∙ predictions.py: The live dashboard for interaction and experimentation
+∙ backtest.py: The script for backtesting the model on different time periods
+
+## Requirements
+
+∙ Python 3.7+
+∙ Alpaca Trade API
+∙ Scikit-learn
+∙ XGBoost
+∙ TA-Lib
+∙ Yahoo Finance (yfinance)
+∙ Alpha Vantage API
+
