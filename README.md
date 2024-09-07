@@ -8,12 +8,18 @@ The pipeline leverages historical stock data, sentiment analysis, and technical 
 
 ## Features
 
-∙ Real-Time Stock Data: Fetch historical stock data using Yahoo Finance (yfinance).
+∙ Real-Time Stock Data: Fetch historical stock data using Yahoo Finance (finance).
+
 ∙ Sentiment Analysis: Incorporate news sentiment data from Alpha Vantage API to enhance model predictions.
+
 ∙ Technical Indicators: Utilize TA-Lib to compute key technical indicators like Exponential Moving Averages (EMA), MACD, Bollinger Bands, and Stochastic Oscillators.
+
 ∙ Machine Learning Models: Train Random Forest and XGBoost models, then stack their predictions using Logistic Regression for a meta-model.
+
 ∙ Trading Automation: Automatically place buy/sell orders based on the model’s predictions via the Alpaca API.
+
 ∙ Custom Threshold: Adjust the prediction threshold to fine-tune the precision-recall trade-off.
+
 ∙ Model Evaluation: Evaluate the model using precision, recall, F1 score, accuracy, and confusion matrix.
 
 ## Usage
@@ -53,16 +59,24 @@ The system predicts the stock's direction for the next day based on the most rec
 ## File Structure
 
 ∙ trading.py: The main Python script for stock prediction and trading automation.
+
 ∙ predictions.py: The live dashboard for interaction and experimentation
+
 ∙ backtest.py: The script for backtesting the model on different time periods
 
 ## Requirements
 
 ∙ Python 3.7+
+
 ∙ Alpaca Trade API
+
 ∙ Scikit-learn
+
 ∙ XGBoost
+
 ∙ TA-Lib
-∙ Yahoo Finance (yfinance)
+
+∙ Yahoo Finance (finance)
+
 ∙ Alpha Vantage API
 
