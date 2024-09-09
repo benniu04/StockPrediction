@@ -111,7 +111,7 @@ else:
     # Feature Engineering
     stock_data['Prev Close'] = stock_data['Adj Close'].shift(1)
     stock_data['EMA_100'] = talib.EMA(stock_data['Adj Close'], timeperiod=100)
-    stock_data['MACD'], stock_data['MACD_signal'] = talib.MACD(stock_data['Adj Close'], fastperiod=12, slowperiod=26,
+    stock_data['MACD'], stock_data['MACD_signal'], _ = talib.MACD(stock_data['Adj Close'], fastperiod=12, slowperiod=26,
                                                                signalperiod=9)
     stock_data['Low_Close_Diff'] = stock_data['Adj Close'] - stock_data['Low']
     stock_data['SMA_Low_50'] = talib.SMA(stock_data['Low'], timeperiod=50)
