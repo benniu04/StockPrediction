@@ -6,6 +6,18 @@ This project is a Stock Price Prediction and Trading Automation System that comb
 
 The pipeline leverages historical stock data, sentiment analysis, and technical indicators to make informed trading decisions.
 
+## Program Interface
+
+![main-dashboard](https://github.com/user-attachments/assets/d51847f0-a2af-4b8c-8edb-011bb4aca3c8)
+
+![dashboard-1](https://github.com/user-attachments/assets/5772c200-6644-40a4-a67b-3e19ff2331d7)
+![dashboard-2](https://github.com/user-attachments/assets/41e8425f-0613-4816-9f0a-ac7f77ee2114)
+
+## Results
+
+![alpaca-results](https://github.com/user-attachments/assets/f79abf3d-2359-452b-b3bf-39a287e1bcc1)
+
+
 ## Features
 
 ∙ Real-Time Stock Data: Fetch historical stock data using Yahoo Finance (finance).
@@ -22,39 +34,6 @@ The pipeline leverages historical stock data, sentiment analysis, and technical 
 
 ∙ Model Evaluation: Evaluate the model using precision, recall, F1 score, accuracy, and confusion matrix.
 
-## Usage
-
-### 1. Input Stock Symbol
-
-The system will prompt you to enter the stock symbol (e.g., AAPL, TSLA) for which you want to predict the next day’s price direction.
-
-### 2. Download Historical Stock Data
-
-The script automatically downloads historical stock data from Yahoo Finance for the specified stock symbol.
-
-### 3. Perform Sentiment Analysis
-
-News sentiment data for the selected stock is fetched using Alpha Vantage's API and integrated into the model’s features.
-
-### 4. Feature Engineering
-
-The system computes technical indicators like EMA, MACD, Bollinger Bands, and others using TA-Lib and incorporates them into the training features.
-
-### 5. Make Predictions
-
-The trained meta-model is used to predict the direction of the stock price for the next day’s market open.
-
-### 6. Automated Trading via Alpaca API
-
-Based on the prediction and a custom threshold (default: 0.7), the system places either a buy or sell order via Alpaca.
-
-### 7. Model Evaluation
-
-The script outputs evaluation metrics such as precision, recall, F1 score, accuracy, and plots a confusion matrix to assess the model’s performance.
-
-### 8. Predict Tomorrow’s Direction
-
-The system predicts the stock's direction for the next day based on the most recent available data and the trained model.
 
 ## File Structure
 
