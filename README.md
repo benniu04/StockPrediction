@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a Stock Price Prediction and Trading Automation System that combines machine learning models with real-time stock trading via the Alpaca API. The system predicts stock price direction for the next day’s market open and can automatically execute buy or sell trades based on those predictions. The model buys if it predicts the stock is going up the next day and sells if it predicts the stock is going down. It is best to run script 15mins before market close for best predictions.
+This project is a Stock Price Prediction and Trading Automation System that combines machine learning models with real-time stock trading via the Alpaca API. The system predicts stock price direction for the next day’s market open and can automatically execute buy or sell trades based on those predictions. The model buys if it predicts the stock is going up the next day and sells if it predicts the stock is going down.
 
 Note: try and run the script 15min before the market closes to get the most recent market data for predictions.
 
