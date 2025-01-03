@@ -44,19 +44,3 @@ Note: try and run the script 15min before the market closes to get the most rece
 
 ∙ backtest.py: The script for backtesting the model on different time periods
 
-## Requirements
-
-∙ Python 3.7+
-
-∙ Alpaca Trade API
-
-∙ Scikit-learn
-
-∙ XGBoost
-
-∙ TA-Lib
-
-∙ Yahoo Finance (finance)
-
-∙ Alpha Vantage API
-
