@@ -17,4 +17,4 @@ ENV PYTHONUNBUFFERED=1 \
     ALPACA_SECRET_KEY=TuFcUldn4HmBjPocR7cUH9SudJQvlCQwf0uXvKxg
 
 EXPOSE 8501
-CMD ["streamlit", "run", "app.py"]
+CMD ["streamlit", "run", "predictions.py"]
