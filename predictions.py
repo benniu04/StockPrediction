@@ -192,7 +192,8 @@ with tab_backtest:
     signals = (meta_all > custom_threshold).astype(int)
     signals_series = pd.Series(signals, index=feat_df.index, name="Signal")
 
-    strat_curve, bh_curve = backtest(price_df["Adj Close"], signals_series, trans_cost)
+    aligned_prices = price_df["Adj Close"].loc[signals_series.index]
+    strat_curve, bh_curve = backtest(aligned_prices, signals_series, trans_cost)
     equity_df = pd.DataFrame({"Strategy": strat_curve, "Buy&Hold": bh_curve})
     fig_curve = px.line(equity_df, labels={"value": "Equity", "Date": "Date"}, title="Strategy Performance")
     st.plotly_chart(fig_curve, use_container_width=True)
