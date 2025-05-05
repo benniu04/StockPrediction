@@ -36,6 +36,6 @@ jobs:
             docker run -d \
               --name ststockprediction1 \
               --restart=always \
-              -p 8501:8501 \
+              -p 80:8501 \
               -e ALPHA_VANTAGE_API_KEY=${{ secrets.ALPHA_VANTAGE_API_KEY }} \
               ${{ secrets.DOCKERHUB_USER }}/ststockprediction1:latest
