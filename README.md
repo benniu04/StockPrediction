@@ -42,5 +42,3 @@ Note: try and run the script 15min before the market closes to get the most rece
 
 ∙ predictions.py: The live dashboard for interaction and experimentation
 
-∙ backtest.py: The script for backtesting the model on different time periods
-
