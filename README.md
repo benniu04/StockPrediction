@@ -11,8 +11,8 @@ Note: try and run the script 15min before the market closes to get the most rece
 
 ![main-dashboard](https://github.com/user-attachments/assets/d51847f0-a2af-4b8c-8edb-011bb4aca3c8)
 
-![dashboard-1](https://github.com/user-attachments/assets/5772c200-6644-40a4-a67b-3e19ff2331d7)
-![dashboard-2](https://github.com/user-attachments/assets/41e8425f-0613-4816-9f0a-ac7f77ee2114)
+![trading dashboard](https://github.com/user-attachments/assets/5873f76d-44e3-48e1-b47d-1434f1d4c589)
+
 
 ## Results
 
