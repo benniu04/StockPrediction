@@ -1,6 +1,6 @@
-/models
-/venv
-/.venv
 /__pycache__
 *.md
 *.png
+.env
+.DS_Store
+*.pkl
