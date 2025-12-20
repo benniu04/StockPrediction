@@ -1,0 +1,6 @@
+/models
+/venv
+/.venv
+/__pycache__
+*.md
+*.png

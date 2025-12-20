@@ -2,10 +2,12 @@ streamlit==1.34.0
 python-dotenv
 yfinance
 xgboost==2.0.3
-ta-lib-bin
+lightgbm
+ta-lib
 seaborn
 plotly
 scikit-learn
 joblib
 pandas
+numpy
 requests
